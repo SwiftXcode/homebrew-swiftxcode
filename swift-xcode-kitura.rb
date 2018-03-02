@@ -4,7 +4,7 @@ class SwiftXcodeKitura < Formula
   homepage "https://swiftxcode.github.io"
   url "https://github.com/SwiftXcode/Kitura_XcodeImage/archive/0.1.0.tar.gz"
   # curl -L https://github.com/SwiftXcode/Kitura_XcodeImage/archive/0.1.0.tar.gz | shasum -a 256
-  sha256 "395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370"
+  sha256 "6ec8ff6e929a3ffe3eb64bd741b2d8dbd8ba4c4e6eb3ec785ae437a9a4e00f76"
   
   depends_on "swiftxcode/swiftxcode/swift-xcode"
   
