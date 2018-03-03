@@ -2,9 +2,9 @@ class SwiftXcode < Formula
 
   desc "Build Swift Package Manager from within Xcode."
   homepage "https://swiftxcode.github.io"
-  url "https://github.com/SwiftXcode/swift-xcode/archive/0.5.6.tar.gz"
-  # curl -L https://github.com/SwiftXcode/swift-xcode/archive/0.5.6.tar.gz | shasum -a 256
-  sha256 "5171a5992e73777a38e3a73281981154af2c45b48b428767bf34022b9384d573"
+  url "https://github.com/SwiftXcode/swift-xcode/archive/0.5.7.tar.gz"
+  # curl -L https://github.com/SwiftXcode/swift-xcode/archive/0.5.7.tar.gz | shasum -a 256
+  sha256 "fa22774c225792165f8c98a98c773ec6939fabc38324539714988c9cd4494a6b"
   
   depends_on "swiftxcode/swiftxcode/swift-progress"
   
