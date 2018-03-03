@@ -10,6 +10,7 @@ class SwiftXcodeKitura < Formula
   
   def install
     # system "make", "all" ... no use
+    ohai "Stay calm and grab a beer, this one time process will take a minute, or five ..."
     system "make", "prefix=#{prefix}", "install"
   end
 end
