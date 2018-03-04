@@ -9,4 +9,8 @@ class SwiftXcodeServerAll < Formula
   
   depends_on "swiftxcode/swiftxcode/swift-xcode-server-api"
   depends_on "swiftxcode/swiftxcode/swift-xcode-kitura"
+
+  def install
+    doc.install "README.md"
+  end
 end
