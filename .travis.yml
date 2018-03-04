@@ -23,4 +23,5 @@ before_install:
 script:
     - brew tap swiftxcode/swiftxcode
     - brew install swift-xcode
+    - brew install swift-xcode-server-api
     - brew install swift-xcode-kitura

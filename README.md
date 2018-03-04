@@ -24,13 +24,17 @@ swift xcode link-templates # <-- important!
 
 ## Extra Images
 
-### Image: Kitura
-
-(One time) compile time: ~5 minutes. Image size: ~100MB.
-Fresh project setup from create to run: 3 seconds.
+### Kitura
 
 ```shell
 brew install swift-xcode-kitura
+swift xcode link-templates # <-- important!
+```
+
+### Swift Server Working Group HTTP API
+
+```shell
+brew install swift-xcode-server-api
 swift xcode link-templates # <-- important!
 ```
 
