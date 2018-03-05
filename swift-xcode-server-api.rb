@@ -10,5 +10,6 @@ class SwiftXcodeServerApi < Formula
   
   def install
     system "make", "prefix=#{prefix}", "install"
+    ohai "Always remember to call \"swift xcode link-templates\" after installing images!"
   end
 end

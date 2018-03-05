@@ -13,5 +13,6 @@ class SwiftXcodeServerAll < Formula
 
   def install
     doc.install "README.md"
+    ohai "Always remember to call \"swift xcode link-templates\" after installing images!"
   end
 end

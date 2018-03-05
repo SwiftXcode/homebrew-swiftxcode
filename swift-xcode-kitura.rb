@@ -12,5 +12,6 @@ class SwiftXcodeKitura < Formula
     # system "make", "all" ... no use
     ohai "Stay calm and grab a beer, this one time process will take a minute, or five ..."
     system "make", "prefix=#{prefix}", "install"
+    ohai "Always remember to call \"swift xcode link-templates\" after installing images!"
   end
 end
