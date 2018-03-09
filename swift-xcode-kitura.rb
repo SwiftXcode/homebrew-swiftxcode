@@ -2,9 +2,9 @@ class SwiftXcodeKitura < Formula
 
   desc "Build Kitura from within Xcode."
   homepage "https://swiftxcode.github.io"
-  url "https://github.com/SwiftXcode/Kitura_XcodeImage/archive/0.1.5.tar.gz"
-  # curl -L https://github.com/SwiftXcode/Kitura_XcodeImage/archive/0.1.5.tar.gz | shasum -a 256
-  sha256 "4d7f968ac0bd56c8dee85525d2db408deddcb90a33a0330c138449f3f93199ad"
+  url "https://github.com/SwiftXcode/Kitura_XcodeImage/archive/0.2.0.tar.gz"
+  # curl -L https://github.com/SwiftXcode/Kitura_XcodeImage/archive/0.2.0.tar.gz | shasum -a 256
+  sha256 "d6488c592506be00187a3782bf09a7c42b8489d1ca6b59a5c982fe024cbc3a89"
   
   depends_on "swiftxcode/swiftxcode/swift-xcode"
   
