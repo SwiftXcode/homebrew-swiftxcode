@@ -2,9 +2,9 @@ class SwiftXcodeNio < Formula
 
   desc "Build Swift IO servers from within Xcode."
   homepage "https://swiftxcode.github.io"
-  url "https://github.com/SwiftXcode/SwiftNIO_XcodeImage/archive/0.3.0.tar.gz"
-  # curl -L https://github.com/SwiftXcode/SwiftNIO_XcodeImage/archive/0.3.0.tar.gz | shasum -a 256
-  sha256 "718fa48c9df61bb95d2cb459e715a1ae14123314a702e32a4fcc1ef2f7604eeb"
+  url "https://github.com/SwiftXcode/SwiftNIO_XcodeImage/archive/0.3.1.tar.gz"
+  # curl -L https://github.com/SwiftXcode/SwiftNIO_XcodeImage/archive/0.3.1.tar.gz | shasum -a 256
+  sha256 "97b849d35fe7517a6d46abb1d32a516a4b2edbbb516fd911ebc9545e5dde3884"
   
   depends_on "libressl"
   depends_on "swiftxcode/swiftxcode/swift-xcode"
