@@ -10,12 +10,12 @@ matrix:
 # this fails, no log, no idea.
 #        - os:   osx
 #          osx_image: xcode8.3
-        - os:   osx
-          osx_image: xcode9
+#        - os:   osx
+#          osx_image: xcode9 # nio needs 4.0.2
         - os:   osx
           osx_image: xcode9.2
-#        - os:   osx # kitura fails this
-#          osx_image: xcode9.3beta
+        - os:   osx # kitura fails this
+          osx_image: xcode9.3
 
 before_install:
     - brew update # otherwise we fail the Xcode9 image
@@ -24,4 +24,6 @@ script:
     - brew tap swiftxcode/swiftxcode
     - brew install swift-xcode
     - brew install swift-xcode-server-api
-    - brew install swift-xcode-kitura
+    #- brew install swift-xcode-kitura
+    - brew install swift-xcode-nio
+    - brew install swift-xcode-wo
