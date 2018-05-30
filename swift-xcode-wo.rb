@@ -1,4 +1,4 @@
-class SwiftXcodeWO < Formula
+class SwiftXcodeWo < Formula
 
   desc "Build Swift WebObjects applications within Xcode."
   homepage "http://swiftobjects.org"
