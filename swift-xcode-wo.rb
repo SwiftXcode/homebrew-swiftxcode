@@ -4,7 +4,7 @@ class SwiftXcodeWo < Formula
   homepage "http://swiftobjects.org"
   url "https://github.com/SwiftObjects/SwiftObjects_XcodeImage/archive/0.0.1.tar.gz"
   # curl -L https://github.com/SwiftObjects/SwiftObjects_XcodeImage/archive/0.0.1.tar.gz | shasum -a 256
-  sha256 "395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370"
+  sha256 "83da1d991cc8e5433b95790564a606fd21c5bbc19bc883a858626957e6544999"
   
   depends_on "swiftxcode/swiftxcode/swift-xcode"
   
