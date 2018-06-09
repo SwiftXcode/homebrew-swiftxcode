@@ -10,6 +10,7 @@ class SwiftXcodeServerAll < Formula
   depends_on "swiftxcode/swiftxcode/swift-xcode-nio"
   depends_on "swiftxcode/swiftxcode/swift-xcode-server-api"
   depends_on "swiftxcode/swiftxcode/swift-xcode-kitura"
+  depends_on "swiftxcode/swiftxcode/swift-xcode-wo"
 
   def install
     doc.install "README.md"
