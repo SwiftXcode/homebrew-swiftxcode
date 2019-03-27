@@ -4,6 +4,7 @@
 </h2>
 
 ![Swift4](https://img.shields.io/badge/swift-4-blue.svg)
+![Swift5](https://img.shields.io/badge/swift-5-blue.svg)
 ![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
 [![homebrew](https://img.shields.io/homebrew/v/cake.svg)](https://github.com/SwiftXcode/homebrew-swiftxcode)
 
@@ -28,6 +29,14 @@ swift xcode link-templates # <-- important!
 
 ```shell
 brew install swift-xcode-kitura
+swift xcode link-templates # <-- important!
+```
+
+### SwiftNIO 1 & 2
+
+```shell
+brew install swift-xcode-nio1
+brew install swift-xcode-nio2
 swift xcode link-templates # <-- important!
 ```
 
