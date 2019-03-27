@@ -1,4 +1,4 @@
-class SwiftXcodeNio < Formula
+class SwiftXcodeNio1 < Formula
 
   desc "Build SwiftNIO 1 servers from within Xcode."
   homepage "https://swiftxcode.github.io"
