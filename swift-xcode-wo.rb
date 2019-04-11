@@ -2,9 +2,9 @@ class SwiftXcodeWo < Formula
 
   desc "Build Swift WebObjects applications within Xcode."
   homepage "http://swiftobjects.org"
-  url "https://github.com/SwiftObjects/SwiftObjects_XcodeImage/archive/0.7.2.tar.gz"
-  # curl -L https://github.com/SwiftObjects/SwiftObjects_XcodeImage/archive/0.7.2.tar.gz | shasum -a 256
-  sha256 "e8d46a0b1d0da935f5505202099736eb60b40c3bc66cb5466c9c397f63b1a9ea"
+  url "https://github.com/SwiftObjects/SwiftObjects_XcodeImage/archive/0.7.3.tar.gz"
+  # curl -L https://github.com/SwiftObjects/SwiftObjects_XcodeImage/archive/0.7.3.tar.gz | shasum -a 256
+  sha256 "8f47868aa672a17a705f4b7074774815f66cd9446a60185bbbd15be9b6f68b9f"
   
   depends_on "swiftxcode/swiftxcode/swift-xcode"
   
