@@ -1,4 +1,4 @@
-class ClangLLVMBin8 < Formula
+class ClangLlvmBin8 < Formula
 
   desc "Prebuilt CLang and LLVM 8.0.0 for cross compilation purposes."
   homepage "https://releases.llvm.org"
