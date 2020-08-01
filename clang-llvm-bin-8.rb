@@ -14,6 +14,6 @@ class ClangLlvmBin8 < Formula
   end
   
   def install
-    system "make", "prefix=#{prefix}", "install"
+    system "make", "prefix=#{prefix}", "VERSION=8.0.0", "install"
   end
 end
