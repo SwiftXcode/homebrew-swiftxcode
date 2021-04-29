@@ -8,10 +8,20 @@
 ![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
 [![homebrew](https://img.shields.io/homebrew/v/cake.svg)](https://github.com/SwiftXcode/homebrew-swiftxcode)
 
+**Breaking News from WWDC 2019**: 
+[Xcode 11](https://developer.apple.com/xcode/) 
+is finally supporting Swift Package Manager. Rendering `swift-xcode` itself obsolete.
+
+There are still live projects like `swift-lambda` under the SwiftXcode umbrella,
+hence this Homebrew tap is still active and alive.
+
+
 Checkout [SwiftXcode](https://SwiftXcode.github.io/) for more information.
 
 This repository provides a Homebrew tap (repository) from which you can
 easily install swift-xcode.
+
+# Outdated Information: Use Xcode 11+ for SwiftPM
 
 ## Installation
 
